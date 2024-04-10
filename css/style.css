@@ -32,9 +32,12 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 100px;
+    a{
+        text-decoration: none;
+    }
 }
 
-.reseaux i {
+.reseaux a i {
     flex: 1 0 50%;
     font-size: 35px;
     padding: 15% 0;
@@ -43,7 +46,7 @@ footer{
     text-align: center;
 }
 
-.reseaux i:hover{
+.reseaux a i:hover{
     color: white;
 }
 
