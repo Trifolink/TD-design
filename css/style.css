@@ -32,12 +32,9 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 100px;
-    a{
-        text-decoration: none;
-    }
 }
 
-.reseaux a i {
+.reseaux a {
     flex: 1 0 50%;
     font-size: 35px;
     padding: 15% 0;
@@ -46,7 +43,7 @@ footer{
     text-align: center;
 }
 
-.reseaux a i:hover{
+.reseaux a:hover{
     color: white;
 }
 
@@ -54,15 +51,13 @@ footer{
 .foolien{
     display: flex;
     justify-content: center;
-}
-
-.foolien a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-    padding: 0 5%;
-}
-
-.foolien a:hover{
-    color: blue;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        padding: 0 5%;
+    }
+    &:hover{
+        color: blue;
+    }
 }
